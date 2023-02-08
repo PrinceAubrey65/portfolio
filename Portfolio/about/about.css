@@ -1,0 +1,98 @@
+:root{
+    --primary: #8c38ff;
+    --light: #EEEEEE;
+    --dark: #212121;
+    --success: #42ba96
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.all{
+    margin: 1vh 2vw;
+}
+
+.educ{
+    margin-top: 13vh;
+}
+.educ img{
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+}
+.educ .text{
+    padding: 0 2vw;
+    position: absolute;
+    top: 20vh;
+    z-index: 1;
+}
+.educ .text h3{
+    font-size: 24px;
+}
+
+.allcerts {
+    background-color: var(--primary);
+    border-radius: 8px;
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+}
+.allcerts h3{
+    flex: 1;
+    margin-bottom: 1vh;
+    font-size: 24px;
+    margin-left: 3vh;
+}
+
+.allcerts button img{
+    flex: 1;
+    width: 30px;
+    height: 20px;
+}
+.allcerts button{
+    margin-bottom: 1vh;
+}
+
+.certs{
+    flex: 1;
+    display: flex;
+}
+
+.allcerts .cert{
+    flex: 1;
+    text-align: center;
+    font-size: 24px;
+}
+.allcerts .cert img{
+    width: 350px;
+    border-radius: 6px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .certs{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .allcerts .cert img{
+        width: 300px;
+        border-radius: 6px;
+    }
+    .allcerts h3{
+        flex: 1;
+        margin-bottom: 1vh;
+        font-size: 18px;
+        margin-left: 3vh;
+    }
+    .allcerts .cert{
+        flex: 1;
+        text-align: center;
+        font-size: 16px;
+        margin-bottom: 1vh;
+    }
+}
