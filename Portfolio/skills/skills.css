@@ -55,7 +55,15 @@
     width: 30px;
 }
 
+.top{
+    flex: 1;
+    display: flex;
+}
 
+.mid{
+    flex: 1;
+    display: flex;
+}
 
 .app-dev{
     flex: 1;
@@ -145,7 +153,7 @@
 
 @media screen and (max-width: 700px){
     .all{
-        margin: 16vh 1vw;
+        margin: 15vh 1vw 2vh;
         padding: 1vh 1vw;
         display: flex;
         flex-direction: column;
@@ -153,22 +161,25 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
-    .web .languages{
+    .languages{
+        display: flex;
+        flex-direction: column;
+    }
+     .top{
         flex: 1;
         display: flex;
-        flex-wrap: wrap;
-        padding: 0  50px;
     }
-    
-    .web .languages div{
+    .mid{
         flex: 1;
-        text-align: center;
-        flex-shrink: 1;
-        flex-basis: 0;
+        display: flex;
     }
     
-    .web .languages div img{
-        width: 30px;
+    .web .languages .php img{
+        width: 40px;
     }
+
+    #bootstrapIMG{
+        width: 40px;
+    }
+
 }
