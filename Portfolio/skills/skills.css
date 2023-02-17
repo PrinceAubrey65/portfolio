@@ -153,7 +153,7 @@
 
 @media screen and (max-width: 700px){
     .all{
-        margin: 15vh 1vw 2vh;
+        margin: 14vh 1vw 2vh;
         padding: 1vh 1vw;
         display: flex;
         flex-direction: column;
