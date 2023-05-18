@@ -154,8 +154,13 @@
         padding: 1vh 1vw;
         order: 3;
     }
+      .info .btans{
+      display: flex;
+      flex-direction: row;
+      }
 
     .info button {
+        flex:1;
         width: 90%;
         margin-bottom: 5vh;
     }
