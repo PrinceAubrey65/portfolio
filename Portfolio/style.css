@@ -155,6 +155,7 @@
         order: 3;
     }
       .info .btans{
+      text-align: center;
       display: flex;
       flex-direction: row;
       width: 100%;
@@ -162,7 +163,7 @@
 
     .info button {
         flex:1;
-        width: 90%;
+        width: 100%;
         margin-bottom: 5vh;
     }
   }
