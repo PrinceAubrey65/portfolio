@@ -159,8 +159,8 @@
       display: flex;
       flex-direction: row;
       justify-content: space-between;
-      width: 98%;
-      margin: 2%
+      width: 100%;
+      margin: 1vh;
       }
 
     .info button {
