@@ -159,7 +159,7 @@
       display: flex;
       flex-direction: row;
       width: 100%;
-      margin: 0 auto;
+      margin: 0 20%;
       }
 
     .info button {
@@ -167,6 +167,7 @@
         width: 100%;
         margin-bottom: 5vh;
         margin-left: 2vh;
+        margin-right: 2vh;
     }
   }
 
