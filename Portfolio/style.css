@@ -218,5 +218,8 @@
         flex:1;
         width: 100%;
     }
+    footer{
+        position: relative;
+    }
   }
   
