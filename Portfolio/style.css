@@ -39,6 +39,9 @@
     flex: 4;
     margin: 0 -5%;
 }
+.prince_img img{
+    width: 80%;
+}
 
 .info{
     display: flex;
@@ -50,9 +53,18 @@
     position: relative;
     top: 25%;
 }
+.info div .intro b{
+    background-color: rgb(13, 80, 157);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    padding: 2px;
+}
 
 .hello{
     font-size: 40px;
+    color: var(--light);
+    background-color: #212121;
+    margin-bottom: 3vh;
 }
 .name{
     font-size: 80px;
@@ -96,13 +108,39 @@
     opacity: .65;
   }
 
+  footer{
+    position: absolute;
+    bottom: 0;
+    color: var(--light);
+    background-color: var(--dark);
+    width: 100%;
+    text-align: center;
+    padding: 3vh 0;
+  }
+
+  .social-bottom{
+    display: flex;
+    justify-content: center;
+
+}
+
+  .social-bottom a{
+    flex: 1;
+    margin: 0 2vh;
+  }  
+
+  .social-bottom img{
+    width: 30px;
+  }
+
+
   @media (max-width: 750px){
     .all{
         display: flex;
         flex-direction: column;
         position: relative;
         top: 15vh;
-        margin: 2vh 5%;
+        margin: 2vh 2%;
     }  
 
     .social{
@@ -147,10 +185,10 @@
 
     .info{
         color: var(--light);
-        text-align: center;
+        /* text-align: center; */
         background-color: #212121;
-        border-radius: 5%;
-        margin: 3vh 2vw;
+        /* border-radius: 5%; */
+        margin: 2vh 0;
         padding: 1vh 1vw;
         order: 3;
     }
@@ -158,14 +196,14 @@
       text-align: center;
       display: flex;
       flex-direction: row;
-      justify-content: space-between;
+      justify-content: space-evenly;
       width: 100%;
       margin: 0 auto;
       }
 
     .info button {
         flex:1;
-        width: 100%;
+        width: 150px;
     }
   }
 
@@ -175,6 +213,10 @@
     }
     .social img{
         width: 35px;
+    }
+    .info button {
+        flex:1;
+        width: 100%;
     }
   }
   
