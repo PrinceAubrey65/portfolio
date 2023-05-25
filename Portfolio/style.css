@@ -16,6 +16,7 @@
     display: flex;
     position: relative;
     top: 16vh;
+    /* height: 82vh; */
     margin: 2vh 5% 0 5%;
     justify-content: center;
 }
@@ -130,14 +131,14 @@
     margin: 0 2vh;
   }  
 
+  @media (min-width: 751px) {
+    .all{
+        height: 82vh;
+    }
+  }
 
 
   @media (max-width: 750px){
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
     .all{
         display: flex;
         flex-direction: column;
@@ -243,8 +244,6 @@
         flex:1;
         width: 100%;
     }
-    /* footer{
-        position: relative;
-    } */
+    
   }
   
