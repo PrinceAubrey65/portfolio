@@ -160,7 +160,7 @@
     .all{
         display: flex;
         flex-direction: column;
-        margin-top: 17vh;
+        margin-top: 12vh;
         padding: 0vh 1vw;    
     }
     .grp{
