@@ -18,7 +18,7 @@
 .all{
     display: flex;
     flex-direction: column;
-    margin-top: 11vh;
+    margin-top: 11.5vh;
     padding: 0vh 1vw;    
 }
 .all h2{
@@ -39,18 +39,6 @@
     border-radius: 5px;
 }
 
-.top .html{
-    background-color: var(--html);
-}
-
-.top .css{
-    background-color: var(--css);
-}
-
-.top .js{
-    background-color: var(--js);
-}
-
 
 .grp{
     flex: 1;
@@ -63,7 +51,7 @@
 
 .grp img{
     width: 360px;
-    height: 230px;
+    height: 200px;
     border-radius: 3%;
     border: 1px solid rgb(56, 55, 55);
 }
@@ -145,6 +133,27 @@
   }
 
 
+  footer{
+    flex: 1;
+    position: absolute;
+    bottom: 0;
+    color: var(--light);
+    background-color: var(--dark);
+    width: 100%;
+    text-align: center;
+    padding: 3vh 0;
+  }
+
+  .social-bottom{
+    display: flex;
+    justify-content: center;
+
+}
+
+  .social-bottom a{
+    flex: 1;
+    margin: 0 2vh;
+  }  
   /* ------------------------------------------------------ */
 
   @media screen and (max-width: 700px) {
@@ -175,4 +184,26 @@
         padding: 1vh 1vw;
         font-size: 1rem;
     }
+
+    footer{
+        flex: 1;
+        position: relative;
+        bottom: 0;
+        color: var(--light);
+        background-color: var(--dark);
+        width: 100%;
+        text-align: center;
+        padding: 3vh 0;
+      }
+    
+      .social-bottom{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+      .social-bottom a{
+        flex: 1;
+        margin: 0 1vh;
+      }  
   }
