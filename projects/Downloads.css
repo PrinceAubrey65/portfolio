@@ -1,0 +1,82 @@
+:root{
+    --primary: #8c38ff;
+    --light: #EEEEEE;
+    --dark: #212121;
+    --success: #42ba96;
+    --html: #464646;
+    --css: #3f3e3e;
+    --js: #414040;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.everyting{
+    margin: 13vh 35vw 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.everyting img{
+    width: 350px;
+}
+
+.everyting .text{
+    width: 350px;
+    text-align: center;
+}
+
+.text a button {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: var(--primary);
+    border: 2px solid transparent;
+    margin-top: 1vh;
+    width: 100%;
+    padding: .275rem .35rem;
+    font-size: 1rem;
+    line-height: 1.2;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+   .text a button:focus,  .text a button:hover {
+    background-color: var(--light);
+    border: 2px solid var(--primary);
+  }
+  
+   .text a button.focus, .text a button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  }
+  
+   .text a button.disabled,  .text a button:disabled {
+    opacity: .65;
+  }
+
+@media screen and (max-width: 750px) {
+    .everyting{
+        margin: 14vh 5.5vw 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .everyting img{
+        width: 350px;
+    }
+
+    .everyting .text{
+        margin-top: 1vh;
+    }
+}
